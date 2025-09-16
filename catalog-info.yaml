@@ -2,6 +2,15 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "Test"
+  annotations:
+    backstage.io/kubernetes-id: dice-roller
+    backstage.io/kubernetes-namespace: default
+    backstage.io/source-location: url:https://github.com/SvenGuthe/Test
+    github.com/project-slug: SvenGuthe/Test
+  links:
+    - url: https://dashboard.example.com
+      title: My Dashboard
+      icon: dashboard
 spec:
   type: service
   owner: user:guest
