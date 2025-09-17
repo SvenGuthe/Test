@@ -8,7 +8,7 @@ metadata:
     backstage.io/source-location: url:https://github.com/SvenGuthe/Test
     github.com/project-slug: SvenGuthe/Test
     backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=backstage
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: url:https://github.com/SvenGuthe/Test
   links:
     - url: https://dashboard.example.com
       title: My Dashboard
