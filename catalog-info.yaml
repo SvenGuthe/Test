@@ -7,6 +7,7 @@ metadata:
     backstage.io/kubernetes-namespace: default
     backstage.io/source-location: url:https://github.com/SvenGuthe/Test
     github.com/project-slug: SvenGuthe/Test
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/part-of=backstage
   links:
     - url: https://dashboard.example.com
       title: My Dashboard
